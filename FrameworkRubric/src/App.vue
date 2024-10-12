@@ -11,7 +11,7 @@ import {ref} from "vue";
         <h1>Klimaforandringernes konsekvenser for naturen</h1>
         <p>Klimaforandringerne påvirker alle områder af verden. Polarisen smelter, og vandstanden i havene stiger. I nogle områder bliver ekstreme vejrfænomener og nedbørsmængder mere almindelige, mens man i andre regioner oplever mere ekstreme hedebølger og tørker. Det er nødvendigt med en klimaindsats nu, ellers vil disse virkninger kun blive værre.</p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Ajax_loader_metal_512.gif" alt="">
-        <div>
+        <div class="content">
         
             <div>
                 <h2>Biodiversitet</h2>
@@ -28,6 +28,16 @@ import {ref} from "vue";
                 <p>På grund af klimaforandringerne står mange europæiske regioner i forvejen over for hyppigere, mere alvorlige og langvarige tørkeperioder. En tørke er en usædvanlig og midlertidig mangel på vand, der skyldes en kombination af manglende nedbør og øget fordampning (på grund af høje temperaturer). Det adskiller sig fra vandknaphed, som er den strukturelle mangel på ferskvand året rundt som følge af overforbruget af<img src="../public/fire.jpg" alt=""><span id="dots">...</span>  vand. Tørke har ofte følgevirkninger, f.eks. på transportinfrastruktur, landbrug, skovbrug, vand og biodiversitet. Under tørke reduceres vandstanden i floder og grundvandsstanden, træernes og afgrødernes vækst hæmmes, forekomsten af angreb fra skadegørere øges, og der opstår flere naturbrande. I Europa medfører tørke årlige tab på ca. 9 mia. EUR, og det påvirker både landbruget, energisektoren og den offentlige vandforsyning. Ekstrem tørke bliver mere og mere almindelig i Europa, og de skader, tørken forårsager, bliver tilsvarende større. Med en gennemsnitlig global temperaturstigning på 3 °C forventes det, at tørke vil forekomme dobbelt så ofte, og at de absolutte årlige tab som følge af tørke i Europa vil stige til 40 mia. EUR om året, hvilket især vil få konsekvenser i Middelhavsområdet og Atlanterhavsregionerne. Hyppigere og mere alvorlig tørke vil gøre sæsonen for naturbrande længere og konsekvenserne af dem mere alvorlige, især i Middelhavsområdet. Klimaforandringerne udvider også det område, der er truet af naturbrande. Regioner, hvor naturbrande i øjeblikket ikke er et problem, kan blive risikoområder.</p>
                 <button>Læs mere</button>
             </div>
+        </div>
+        <div class="newsletter center">
+            <p>Sign up for our newsletter here!</p>
+            <form>
+            <div>
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" placeholder="Email:" required />
+            </div>
+            <button>Sign Up</button>
+            </form>
         </div>
     </main>
   
