@@ -30,7 +30,7 @@ import {ref} from "vue";
             </div>
         </div>
         <div class="newsletter center">
-            <p>Sign up for our newsletter here!</p>
+            <p>Tilmeld dig nyhedsbrevet og vær den første til at høre mere omkring hvordan klimaforandringerne påvirker din hverdag</p>
             <form>
             <div>
                 <label for="email">email:</label>
