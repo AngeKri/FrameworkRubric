@@ -9,7 +9,9 @@ import {ref} from "vue";
 <template>
 <h1>Klimaforandringernes konsekvenser for naturen</h1>
 <p>Klimaforandringerne påvirker alle områder af verden. Polarisen smelter, og vandstanden i havene stiger. I nogle områder bliver ekstreme vejrfænomener og nedbørsmængder mere almindelige, mens man i andre regioner oplever mere ekstreme hedebølger og tørker. Det er nødvendigt med en klimaindsats nu, ellers vil disse virkninger kun blive værre.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Ajax_loader_metal_512.gif" alt="">
 <div>
+
     <div>
         <h2>Biodiversitet</h2>
         <p>Klimaforandringerne sker så hurtigt, at mange plante- og dyrearter har svært ved at overleve. Der er klar dokumentation for, at biodiversiteten allerede reagerer på klimaforandringerne og fortsat vil gøre det. De direkte virkninger omfatter ændringer i fænologien (dyre- og plantearters adfærd og livscyklus), arternes tæthed og fordeling, sammensætningen af arternes samfund, levestedernes struktur og<span id="dots">...</span> økosystemprocesser. <br> Klimaforandringerne har desuden indirekte virkninger på biodiversiteten som følge af ændringer i anvendelsen af arealer og andre ressourcer. Disse kan være mere skadelige end de direkte virkninger på grund af deres omfang og hastighed. De indirekte virkninger omfatter: fragmentering og tab af levesteder, overudnyttelse, forurening af jord, vand og luft og spredningen af invasive arter. De vil yderligere reducere økosystemernes modstandsdygtighed over for klimaforandringer og deres evne til at opfylde væsentlige funktioner, f.eks. klimaregulering, fødevarer, ren luft og rent vand og forebyggelse af oversvømmelser eller erosion.</p>
