@@ -3,9 +3,14 @@
 </script>
 
 <template>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
     <header>
+      <div>
         <h1>KLIMAKRISE</h1>
-        <span class="material-symbols-outlined">menu</span>
+        <a href="#">
+          <span class="material-symbols-outlined">menu</span>
+        </a>
+      </div>
     </header>
    
 </template>
@@ -17,11 +22,28 @@ header {
   color: white;
   font-size: 1rem;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 45%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.material-symbols-outlined{
+  font-size: 3rem;
+  color: white;
 }
 
 h1{
-    margin: auto;
-    width: 45%;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
+
 </style>
